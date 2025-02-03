@@ -42,26 +42,26 @@ In Phase 1 text segmented into books, chapters, sections (element div, attribute
 
 Metadata is added at token level, although the structure and limits of books, chapters, sections, paragraphs, sentences and tokens can be altered manually at any stage.
 
-[read more about Phase 1 in the Wiki](https://github.com/RZiane/HT_CRISCO/wiki/Phase-1:-Sentence-Segmentation-and-Tokenisation)
+[read more about Phase 1 in the Wiki](https://github.com/Corpus-Diachroniques-CRISCO/HT-CRISCO/wiki/Phase-1:-Sentence-Segmentation-and-Tokenisation)
 
 
 In Phase 2, syntactic function and the reference to the parent token in the sentence (in the UD system) as well as the UD part of speech* are added (attributes udpos). 
 
-[read more about Phase 2 in the Wiki](https://github.com/RZiane/HT_CRISCO/wiki/Phase-2:-PoS-tagging-and-sentence-parsing-using-HOPS-parser)
+[read more about Phase 2 in the Wiki](https://github.com/Corpus-Diachroniques-CRISCO/HT-CRISCO/wiki/Phase-2:-PoS-tagging-and-sentence-parsing-using-HOPS-parser)
 
 \<w join="_" n="3" head="0" function="root" udpos="VERB" >appellez\</w>
 
 
 In Phase 3, lemma is added (attribute lemma) wherever possible, a modern French lemma or a lemma from the [Dictionnaire du Moyen Français](http://zeus.atilf.fr/dmf/) is used
 
-[read more about Phase 3 in the Wiki](https://github.com/RZiane/HT_CRISCO/wiki/Phase-3:-Lemmatisation-Presto-dictionary)
+[read more about Phase 3 in the Wiki](https://github.com/Corpus-Diachroniques-CRISCO/HT-CRISCO/wiki/Phase-3:-Lemmatisation-Presto-dictionary)
 
 \<w join="_" n="3" head="0" function="root" lemma="appeler" udpos="VERB" >appellez\</w>
 
 
 In Phase 4, Attributes uppos (for the UPenn system of PoS annotation) and prpos (for the Presto system) are added.
 
-[read more about Phase 4 in the Wiki](https://github.com/RZiane/HT_CRISCO/wiki/Phase-4:-Tagset-conversion-UPenn,-Presto)
+[read more about Phase 4 in the Wiki](https://github.com/Corpus-Diachroniques-CRISCO/HT-CRISCO/wiki/Phase-4:-Tagset-conversion-UPenn,-Presto)
 
 \<w join="_" n="3" head="0" function="root" lemma="appeler" udpos="VERB" prpos="Ge" uppos="VPP">appellez\</w>
 
